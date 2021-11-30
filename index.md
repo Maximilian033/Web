@@ -1,37 +1,80 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Bakytzhanov Maksat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="far fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#content_page">CRYPTO</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
 
-You can use the [editor on GitHub](https://github.com/Maximilian033/Web/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+        <div class="text-box">
+            <h1>THE CHOICE IS YOURS</h1>
+            <div class="buttons">
+                <button type="button" class="button1"><span class="span1"></span>BUY</button>
+                <button type="button" class="button2"><span class="span2"></span>SELL</button>
+            </div>
+        </div>
+    </section>
+<!------------------------------------------------Content------------------------>
+    <section class="content">
+        <h1 id="content_page">CRYPTOCURRENCY</h1>
+        <p>Right now Bitcoin feels like the internet before the browser.</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <div class="row">
+            <div class="content-col"
+                 <h3>Bitcoin</h3>
+                <p>Bitcoin is a decentralized digital currency created in January 2009. It follows the ideas set out in a white paper by the mysterious and pseudonymous Satoshi Nakamoto.1 The identity of the person or persons who created the technology is still a mystery. Bitcoin offers the promise of lower transaction fees than traditional online payment mechanisms do, and unlike government-issued currencies, it is operated by a decentralized authority.</p>
+                <p>Bitcoin is known as a type of cryptocurrency because it uses cryptography to keep it secure. There are no physical bitcoins, only balances kept on a public ledger that everyone has transparent access to (although each record is encrypted). All Bitcoin transactions are verified by a massive amount of computing power via a process known as "mining." Bitcoin is not issued or backed by any banks or governments, nor is an individual bitcoin valuable as a commodity. Despite it not being legal tender in most parts of the world, Bitcoin is very popular and has triggered the launch of hundreds of other cryptocurrencies, collectively referred to as altcoins. Bitcoin is commonly abbreviated as BTC when traded.</p>
+                <p>KEY TAKEAWAYS
+                <li>Launched in 2009, Bitcoin is the world's largest cryptocurrency by market capitalization.</li>
+                <li>Unlike fiat currency, Bitcoin is created, distributed, traded, and stored with the use of a decentralized ledger system, known as a blockchain.</li>
+                <li>Bitcoin's history as a store of value has been turbulent; it has gone through several cycles of boom and bust over its relatively short lifespan.</li>
+                <li>As the earliest virtual currency to meet widespread popularity and success, Bitcoin has inspired a host of other cryptocurrencies in its wake.</li></p>
+            </div>
+            <div class="content-col"
+                <h3>Ethereum</h3>
+                <p>Ethereum is a technology that's home to digital money, global payments, and applications. The community has built a booming digital economy, bold new ways for creators to earn online, and so much more. It's open to everyone, wherever you are in the world - all you need is the internet.</p>
 
-### Markdown
+                <h3>A fairer financial system</h3>
+                <p>Today, billions of people can’t open bank accounts, others have their payments blocked. Ethereum's decentralized finance (DeFi) system never sleeps or discriminates. With just an internet connection, you can send, receive, borrow, earn interest, and even stream funds anywhere in the world.</p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+                <h3>Criticisms of Ethereum</h3>
+                <p>Ethereum faces the same criticisms that all cryptocurrency platforms face: </p>
+                <li>Prices of all cryptocurrencies, including Ether, tend to mirror bitcoin price action. This has been evident for years and is front and center at present. For example, in 2017, bitcoin's value seesawed between about $900 and about $20,000. In April 2021, bitcoin hit a high of around $63k, and hovering around $30k in July 2021.12 As such, cryptocurrencies remain highly speculative and subject to both bullish and bearish periods.</li>
+                <li>Each of these networks is eating up a vast amount of energy. Cryptocurrency miners, in particular, are devoting a huge amount of computing power to the process of validating transactions. One of China's reasons for cracking down on cryptocurrency there is the fossil fuel energy drain caused by large-scale crypto coin mining operations.13</li>
+                <p>Ethereum also has faced criticism over its fees. That may change with the introduction of Ethereum 2.0.</p>
+            </div>
+            <div class="content-col"
+                <h3>Dogecoin</h3>
+                <p>Dogecoin (DOGE) is a peer-to-peer, open-source cryptocurrency. It is considered an altcoin and an almost sarcastic meme coin. Launched in December 2013, Dogecoin has the image of a Shiba Inu dog as its logo.</p>
+                <p>While it was created seemingly as a joke, Dogecoin's blockchain still has merit. Its underlying technology is derived from Litecoin. Notable features of Dogecoin, which uses a scrypt algorithm, are its low price and unlimited supply.</p>
 
-```markdown
-Syntax highlighted code block
+                <h3>KEY TAKEAWAYS</h3>
+                <li>Dogecoin is an open-source cryptocurrency started in 2013 by Jackson Palmer and Billy Markus.</li>
+                <li>Dogecoin initially started as a joke based on a popular meme featuring a Shiba Inu (a Japanese breed of dog).</li>
+                <li>It is based on Litecoin and has the same technology behind its proof-of-work.</li>
+                <li>Dogecoin has a loyal community of supporters who trade it and use it as a tipping currency for social media content.</li>
+            </div>
+        </div>
+    </section>
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Maximilian033/Web/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <script src="script.js"></script>
+</body>
+</html>
