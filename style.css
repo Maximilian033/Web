@@ -175,6 +175,10 @@ nav .fas{
     .nav-links ul{
         padding: 20px;
     }
+    
+    .logo{
+        width: 70px;
+    }
 }
 /*-------------------- Content --------------------------*/
 .content{
